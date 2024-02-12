@@ -1,7 +1,6 @@
 local curVersion = GetResourceMetadata(GetCurrentResourceName(), "version")
 local resourceName = "hw_waiting"
 
-if Config.checkForUpdates then
     CreateThread(function()
         if GetCurrentResourceName() ~= "hw_waiting" then
             resourceName = "hw_waiting (" .. GetCurrentResourceName() .. ")"
@@ -57,7 +56,6 @@ if Config.checkForUpdates then
 
         return repoVersion, repoURL, repoBody
     end
-end
 
 AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then
