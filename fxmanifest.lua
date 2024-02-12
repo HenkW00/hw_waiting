@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'HenkW'
 description 'Waiting script'
-version '1.0.1'
+version '1.0.2'
 
 client_script 'client.lua'
 server_script 'server.lua'
