@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'HenkW'
-description 'Waiting script'
+description 'Simple script that will create a waiting que'
 version '1.0.4'
 
 client_script 'client.lua'
