@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'HenkW'
 description 'Simple script that will create a waiting que'
-version '1.0.4'
+version '1.0.5'
 
 client_script 'client.lua'
 server_script 'server.lua'
